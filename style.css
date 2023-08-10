@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url();
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: beige;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .titulo{
+    text-align: center;
+    padding: 35px;
+    font-size: 30px;
+  }
+  #contentResult p{
+   text-align: center;
+  }
+
+  .mensaje{
+    text-align: center;
+  }
+  .errorCard img{
+    width: 500px;
+    align-items: center;
+    border-radius: 35px;
+  }
